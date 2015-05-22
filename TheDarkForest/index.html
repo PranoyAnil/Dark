@@ -1,0 +1,47 @@
+﻿<!DOCTYPE html>
+<html lang="=en">
+<head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>COMP 397-Assignment 1</title>
+    <!--Css section-->
+    <link href="css/reset.css" rel="stylesheet" />
+    <link href="css/main.css" rel="stylesheet" />
+</head>
+<body>
+
+    <div id="impress">
+        <!--First Slide-->
+        <div id="1" class="step slide">
+            <div class="slide-text">
+                <p>There is a time machine.Flip switch?</p>
+                <p><a href="#2">Flip it</a></p>
+                <p><a href="#3">wait</a></p>
+
+            </div><!--end of slide text-->
+        </div><!--end of slide 1-->
+        <!--Second Slide-->
+        <div id="2" class="step slide" data-x="1500">
+            <div class="slide-text">
+                <p>
+                    You went back in time
+                </p>
+                <div class="menu"><a href="#1">Start Over</a></div>
+            </div>
+        </div><!--End of slide 2-->
+        <!--Third Slide-->
+        <div id="3" class="step slide" data-x="1500">
+            <div class="slide-text">
+                <p>
+                    You waited for your dad
+                </p>
+                <p>He wanted you to do your homework</p>
+                <div class="menu"><a href="#1">Start Over</a></div>
+            </div>
+        </div><!--End of slide 3-->
+    </div><!--End of impress-->
+    <!--Js Section-->
+    <script src="Scripts/lib/impress.js"></script>
+    <script>impress().init();</script>
+</body>
+</html>
