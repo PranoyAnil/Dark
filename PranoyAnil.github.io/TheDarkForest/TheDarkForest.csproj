@@ -59,6 +59,15 @@
     <Reference Include="System.EnterpriseServices" />
   </ItemGroup>
   <ItemGroup>
+    <Content Include="assets\images\Dark-Forest-Wolf-2.jpg" />
+    <Content Include="assets\images\dark-woods-forest-image.jpg" />
+    <Content Include="assets\images\Dark_Forest_End.jpg" />
+    <Content Include="assets\images\dark_forest_tree.jpg" />
+    <Content Include="assets\images\dark_thorn.jpg" />
+    <Content Include="assets\images\ForestCabin.jpg" />
+    <Content Include="assets\images\forest_berry.jpg" />
+    <Content Include="assets\images\quick1.png" />
+    <Content Include="assets\images\quicksand.jpg" />
     <Content Include="packages.config" />
     <None Include="Web.Debug.config">
       <DependentUpon>Web.config</DependentUpon>
