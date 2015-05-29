@@ -59,15 +59,34 @@
     <Reference Include="System.EnterpriseServices" />
   </ItemGroup>
   <ItemGroup>
+    <Content Include="assets\images\1334200352030.jpg" />
+    <Content Include="assets\images\1366x768_dark_forest-186640.jpg" />
+    <Content Include="assets\images\14573-dark-wood-1366x768-abstract-wallpaper.jpg" />
+    <Content Include="assets\images\2550944-theforest-bloody.png" />
+    <Content Include="assets\images\berries.jpg" />
+    <Content Include="assets\images\cab.jpg" />
+    <Content Include="assets\images\cabin1.jpg" />
     <Content Include="assets\images\Dark-Forest-Wolf-2.jpg" />
     <Content Include="assets\images\dark-woods-forest-image.jpg" />
+    <Content Include="assets\images\dark_forest_29_cool_hd.jpg" />
+    <Content Include="assets\images\dark_forest_autumn-wallpaper-1366x768.jpg" />
+    <Content Include="assets\images\dark_forest_by_mutiny_in_the_air-d64zckv.jpg" />
+    <Content Include="assets\images\dark_forest_by_raqmo-d6sll0e.jpg" />
     <Content Include="assets\images\Dark_Forest_End.jpg" />
     <Content Include="assets\images\dark_forest_tree.jpg" />
     <Content Include="assets\images\dark_thorn.jpg" />
+    <Content Include="assets\images\faint.JPG" />
     <Content Include="assets\images\ForestCabin.jpg" />
     <Content Include="assets\images\forest_berry.jpg" />
+    <Content Include="assets\images\IMG_4715.JPG" />
     <Content Include="assets\images\quick1.png" />
     <Content Include="assets\images\quicksand.jpg" />
+    <Content Include="assets\images\snake_bite.jpg" />
+    <Content Include="assets\images\tree.jpg" />
+    <Content Include="assets\images\trees dark forest king fantasy art artwork 1920x1200 wallpaper_www.wallpaperfo.com_24.jpg" />
+    <Content Include="assets\images\trees_branches_dark_night_1366x768_hd-wallpaper-51773.jpg" />
+    <Content Include="assets\images\ws_Dark_Trees_Mist_Deer_&amp;_Sea_1366x768.jpg" />
+    <Content Include="assets\images\zombie.jpg" />
     <Content Include="packages.config" />
     <None Include="Web.Debug.config">
       <DependentUpon>Web.config</DependentUpon>

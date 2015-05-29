@@ -1,0 +1,106 @@
+﻿
+body {
+    background-image: url('../assets/images/trees_branches_dark_night_1366x768_hd-wallpaper-51773.jpg');
+}
+.impress-enabled .step{
+    margin: 0;
+    opacity: 0.0;
+    -webkit-transition:  1s;
+    -moz-transition:  1s;
+/*    -ms-transition:  1s;*/
+    -o-transition:  1s;
+    transition: background 1s;
+}
+
+.impress-enabled .step.active{
+    opacity:1;
+
+}
+.slide {
+    display: block;
+    width: 700px;
+    height: 600px;
+    padding: 0 60px;
+    background-image: url('../assets/images/trees dark forest king fantasy art artwork 1920x1200 wallpaper_www.wallpaperfo.com_24.jpg');
+    background-size: 800px 500px;
+    background-repeat: no-repeat;
+    border: 1px solid rgba(0,0,0,0.3);
+    color: #cde;
+    text-shadow: 0 2px 2px rgba(0,0,0,0.1);
+    border-radius: 5px;
+    font-family: "Open Sans",Arial,sans-serif;
+    font-size: 30px;
+}
+/*Styling for slide paragraphs*/
+.slide p{
+    margin-top:15px;
+    margin-bottom:30px;
+    line-height:45px;
+}
+
+    .slide a, .slide a:visited {
+        color:#071549;
+        text-decoration: none;
+        background-color: #abc;
+        padding: 5px;
+        border-radius: 5px;
+        border: 1px solid #cde;
+    }
+    .slide a:hover, .slide a:active
+        {
+            background-color:#cde;
+                                   }
+    /*style text area*/
+    .slide .slide-text{
+        height:450px;
+    }
+    /*for menu*/
+    div.menu{
+        border-top:2px solid black;
+        padding-top:25px;
+        text-align:center; 
+    }
+#Left {
+    background-image: url('../assets/images/1334200352030.jpg');
+}
+#Right {
+    background-image: url('../assets/images/ws_Dark_Trees_Mist_Deer_&_Sea_1366x768.jpg');
+}
+#Berries {
+    background-image: url('../assets/images/forest_berry.jpg');
+}
+#Berries1 {
+    background-image: url('../assets/images/berries.jpg');
+}
+#Berries2 {
+    background-image: url('../assets/images/zombie.jpg');
+}
+#Cabin {
+    background-image: url('../assets/images/dark_forest_by_raqmo-d6sll0e.jpg');
+}
+#Cabin1 {
+    background-image: url('../assets/images/cab.jpg');
+}
+#Cabin2 {
+    background-image: url('../assets/images/Dark_Forest_End.jpg');
+}
+#Mud {
+    background-image: url('../assets/images/quick1.png');
+}
+#Mud1 {
+    background-image: url('../assets/images/quicksand.jpg');
+}
+#Mud2 {
+    background-image: url('../assets/images/snake_bite.jpg');
+}
+
+#Tree {
+    background-image: url('../assets/images/tree.jpg');
+}
+#Tree1 {
+    background-image: url('../assets/images/2550944-theforest-bloody.png');
+}
+#Tree2 {
+    background-image: url('../assets/images/Dark-Forest-Wolf-2.jpg');
+}
+

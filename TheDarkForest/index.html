@@ -1,5 +1,9 @@
 ﻿<!DOCTYPE html>
 <html lang="=en">
+<!--Author: Pranoy Anil-->
+<!--App: The Dark Forest-->
+<!--Date: May 29th, 2015-->
+<!--Description: COMP397 - Assignment1-->
 <head>
     <meta charset="utf-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
@@ -14,31 +18,37 @@
         <!--First Slide-->
         <div id="Intro" class="step slide">
             <div class="slide-text">
-                <p>You enter a dark forest.Which path do you decide to take?</p>
-                <p><a href="#Circular">Take Left</a></p>
-                <p><a href="#Square">Go Right</a></p>
+                <p>You are in a forest.You dont know how you reached here.</p>
+                <p>You can only proceed forward and have two paths to choose from.</p>
+                <p>Which path do you decide to take?</p>
+                <p>&nbsp;&nbsp;
+                    <a href="#Left">Take Left</a>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+                    <a href="#Right">Go Right</a>
+                </p>
             </div><!--end of slide text-->
         </div><!--end of slide 1-->
         <!--Second Slide-->
-        <div id="Circular" class="step slide" data-x="1500">
+        <div id="Left" class="step slide" data-x="1500">
             <div class="slide-text">
-                <p>You come across a circular field of tall bushes and have 2 paths.You go through a path with</p>
+                <p>You come across a really dark place that has 2 paths.</p>
+                <p>You can go through a path with: </p>      
                 <p><a href="#Mud">Animal sounds</a></p>
                 <p><a href="#Tree">Really dark</a></p>
                 <div class="menu"><a href="#Intro">Start Over</a></div>
             </div><!--end of slide text-->
         </div><!--End of slide 2-->
         <!--Third Slide-->
-        <div id="Square" class="step slide" data-y="1500">
+        <div id="Right" class="step slide" data-y="1500">
             <div class="slide-text">
-                <p>You come across a square field of tall bushes and have 2 paths.You choose a path with</p>
+                <p>You come across a light and have 2 paths.</p>
+                <p>You choose a path with</p>
                 <p><a href="#Cabin">Thorns</a></p>
                 <p><a href="#Berries">Light</a></p>
                 <div class="menu"><a href="#Intro">Start Over</a></div>
             </div><!--end of slide text-->
         </div><!--End of slide 3-->
         <!--Fourth Slide-->
-        <div id="Mud" class="step slide" data-x="6000">
+        <div id="Mud" class="step slide" data-x="3000">
             <div class="slide-text">
                 <p>You come across a muddy path.</p>
                 <p><a href="#Mud1">Take it.</a></p>
@@ -47,14 +57,14 @@
             </div><!--end of slide text-->
         </div><!--End of slide 4-->
         <!--Fifth Slide-->
-        <div id="Mud1" class="step slide" data-x="4500">
+        <div id="Mud1" class="step slide" data-x="6000">
             <div class="slide-text">
                 <p>You Drown.</p>
                 <div class="menu"><a href="#Intro">Start Over</a></div>
             </div><!--end of slide text-->
         </div><!--End of slide 5-->
         <!--Sixth Slide-->
-        <div id="Mud2" class="step slide" data-y="4500">
+        <div id="Mud2" class="step slide" data-x="7500">
             <div class="slide-text">
                 <p>You Die.</p>
                 <div class="menu"><a href="#Intro">Start Over</a></div>
@@ -63,7 +73,8 @@
         <!--Seventh Slide-->
         <div id="Cabin" class="step slide" data-y="3000">
             <div class="slide-text">
-                <p>You see a cabin from far.Do you want to enter it?</p>
+                <p>You see a cabin from far.</p>
+                <p>Do you want to enter it?</p>
                 <p><a href="#Cabin1">Enter</a></p>
                 <p><a href="#Cabin2">Ignore</a></p>
                 <div class="menu"><a href="#Intro">Start Over</a></div>
@@ -87,7 +98,8 @@
         <!--Tenth Slide-->
         <div id="Berries" class="step slide" data-y="4500">
             <div class="slide-text">
-                <p>You find a few berries on a plant.Do you want to eat it?</p>
+                <p>You find a few berries on a plant.</p>
+                <p>Do you want to eat it?</p>
                 <p><a href="#Berries1">Eat</a></p>
                 <p><a href="#Berries2">Dont</a></p>
                 <div class="menu"><a href="#Intro">Start Over</a></div>
@@ -110,29 +122,30 @@
         <!--Thirteenth Slide-->
         <div id="Tree" class="step slide" data-x="4500">
             <div class="slide-text">
-                <p>You find a tree in front of you.What do you want to do?</p>
+                <p>You find a tree in front of you.</p>
+                <p>What do you want to do?</p>
                 <p><a href="#Tree1">Climb</a></p>
                 <p><a href="#Tree2">Continue</a></p>
                 <div class="menu"><a href="#Intro">Start Over</a></div>
             </div><!--end of slide text-->
         </div><!--End of slide 13-->
         <!--Fourteenth Slide-->
-        <div id="Tree1" class="step slide" data-x="2500">
+        <div id="Tree1" class="step slide" data-x="9000">
             <div class="slide-text">
                 <p>You fall down.</p>
                 <div class="menu"><a href="#Intro">Start Over</a></div>
             </div><!--end of slide text-->
         </div><!--End of slide 14-->
         <!--Fifteenth Slide-->
-        <div id="Tree2" class="step slide" data-y="-3000">
+        <div id="Tree2" class="step slide" data-x="10500">
             <div class="slide-text">
                 <p>You get eaten.</p>
                 <div class="menu"><a href="#Intro">Start Over</a></div>
             </div><!--end of slide text-->
-            </div><!--End of slide 15-->
-        </div><!--End of impress-->
-        <!--Js Section-->
-        <script src="Scripts/lib/impress.js"></script>
-        <script>impress().init();</script>
+        </div><!--End of slide 15-->
+    </div><!--End of impress-->
+    <!--Js Section-->
+    <script src="Scripts/lib/impress.js"></script>
+    <script>impress().init();</script>
 </body>
 </html>
