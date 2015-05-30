@@ -60,22 +60,12 @@
   </ItemGroup>
   <ItemGroup>
     <Content Include="assets\images\1334200352030.jpg" />
-    <Content Include="assets\images\1366x768_dark_forest-186640.jpg" />
-    <Content Include="assets\images\14573-dark-wood-1366x768-abstract-wallpaper.jpg" />
     <Content Include="assets\images\2550944-theforest-bloody.png" />
     <Content Include="assets\images\berries.jpg" />
     <Content Include="assets\images\cab.jpg" />
-    <Content Include="assets\images\cabin1.jpg" />
     <Content Include="assets\images\Dark-Forest-Wolf-2.jpg" />
-    <Content Include="assets\images\dark-woods-forest-image.jpg" />
-    <Content Include="assets\images\dark_forest_29_cool_hd.jpg" />
-    <Content Include="assets\images\dark_forest_autumn-wallpaper-1366x768.jpg" />
-    <Content Include="assets\images\dark_forest_by_mutiny_in_the_air-d64zckv.jpg" />
     <Content Include="assets\images\dark_forest_by_raqmo-d6sll0e.jpg" />
     <Content Include="assets\images\Dark_Forest_End.jpg" />
-    <Content Include="assets\images\dark_forest_tree.jpg" />
-    <Content Include="assets\images\dark_thorn.jpg" />
-    <Content Include="assets\images\faint.JPG" />
     <Content Include="assets\images\ForestCabin.jpg" />
     <Content Include="assets\images\forest_berry.jpg" />
     <Content Include="assets\images\IMG_4715.JPG" />
@@ -96,7 +86,6 @@
     </None>
   </ItemGroup>
   <ItemGroup>
-    <Content Include="assets\images\dark_forest-wallpaper-1366x768.jpg" />
     <Content Include="assets\images\Dark_Forest.jpg" />
     <Content Include="css\main.css" />
     <Content Include="css\reset.css" />
